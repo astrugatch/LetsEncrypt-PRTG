@@ -38,7 +38,7 @@ param($result)   # required to access the $result parameter
 # Where the PRTG certificates live. 
 $PRTGCertRoot = 'C:\Program Files (x86)\PRTG Network Monitor\cert'
 # Let's Encrypt Intermediate CA
-$LEIntermediateCA = 'https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem.txt'
+$LEIntermediateCA = 'https://letsencrypt.org/certs/lets-encrypt-r3-cross-signed.pem.txt'
 ########## End of Configuration, no more changes! 
 
 # PowerShell PKI module needed for certificate conversion. 
